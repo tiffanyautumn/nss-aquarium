@@ -1,0 +1,230 @@
+h1 {
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+.top {
+    background-color: darkblue;
+    background-blend-mode: hue;
+    opacity: 1;
+    padding: 10px;
+    margin: 0px;
+    width:100%
+}
+body {
+    background-color: #1857c4;
+    /* border: 3px black solid; */
+}
+
+
+.fish_bowl {
+    /* background-color: purple; */
+    padding: 15px;
+    margin: 5px;
+    width: auto;
+    /* border: 3px black solid; */
+    
+    
+}
+
+.fish_bowl h2 {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color:white;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+    background-color: lightgray;
+    padding: 15px;
+    border: 15px black
+}
+.leftandright {
+    /* background-color: white; */
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+
+.contofnotes {
+    /* border: 5px black solid; */
+    width: 25%
+}
+.notes {
+    background-color: lightblue;
+    color: white;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+    font-family: 'Libre Baskerville', serif;
+    width: auto;
+    height: 100%;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    border: 5px black solid;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px black solid; */
+    width: 75%
+}
+.dafishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.fish_name {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis:16%;
+    border: 1px black;
+    padding: 1em;
+    margin:0.5em;
+    
+}
+
+/* .fish_name img {
+    width: 50%;
+} */
+
+.fish_img img {
+    width:85%;
+    padding: 10px;
+    margin:10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.fish_img {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border:yellow 5px
+  }
+  
+.fish_text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 5px 5px;
+    list-style-type: none;
+    font-size: small;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+.martins_quotes {
+    background-color: darkblue;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Libre Baskerville', serif;
+}
+.quotes {
+    background-color: white;
+    width: 100%;
+}
+.martins_quotes h2 {
+    text-align: center;
+    color:white;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+.fish_locale {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* .bottom_content_section {
+    display: flex;
+    border:black 10px;
+    margin: 5px;
+    padding:5px;
+   
+}
+.bottom_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis:50%
+    
+
+} */
+/* }
+Notes_section aside {
+    padding: 50px;
+    background-color: orange; 
+    width: 15%;
+    margin-left:5px;
+    margin-right: 5px;
+    border: black thick
+   
+}
+.fish_bowl{
+    background-color: green;
+    border: black thick
+}
+
+.fish_name {
+    background-color: yellow;
+}
+img {
+    width: 75%;
+    margin: 0 ;
+    padding: 20px 15px;
+    background-color: black;
+    
+}
+.fish_name > p {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    /* background-color: red; */
+    /* border: black dotted
+} */
+/* .left-content {
+    width:50%;
+    background-color: white;
+    
+}
+.fish_bowl > h2 {
+    font-size:27px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.leftandright {
+    display:flex;
+    justify-content: space-between;
+    background-color: purple;
+    
+}
+.left-content {
+    display:flex;
+    flex-direction: column;
+}
+
+.leftandright > .martins_quotes {
+    border: thick red
+}
+
+Notes_section {
+    background-color: black;
+} */ 
